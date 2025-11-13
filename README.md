@@ -7,13 +7,12 @@ It is designed for database learners, analysts, and developers to practice datab
 
 ## Repository Structure
 
-- `sql/01_sakila_setup.sql`  
+- `sql/01_Introduction to SQL.sql`  
   Database setup and DDL/DML: table creation, sample data, ALTER TABLE, constraints, DROP/TRUNCATE
-
-- `sql/02_sakila_queries.sql`  
   SELECT queries: DISTINCT, LIMIT, WHERE, AND, OR, NOT, LIKE, BETWEEN, ORDER BY
 
-- `sql/03_sakila_aggregation.sql`  
+- `sql/02_Introduction to Sql part 2.sql`  
+  SELECT queries: DISTINCT, LIMIT, WHERE, AND, OR, NOT, LIKE, BETWEEN, ORDER BY
   Aggregation queries: SUM, AVG, COUNT, MIN, MAX, GROUP BY, HAVING, SQL execution order
 
 ## How to Use
@@ -23,6 +22,5 @@ It is designed for database learners, analysts, and developers to practice datab
 3. Execute scripts in order:
 
 ```sql
-source sql/01_sakila_setup.sql;
-source sql/02_sakila_queries.sql;
-source sql/03_sakila_aggregation.sql;
+source sql/01_Introduction to SQL.sql;
+source sql/02_Introduction to Sql part2.sql;
