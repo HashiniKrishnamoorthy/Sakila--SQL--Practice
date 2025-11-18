@@ -15,10 +15,10 @@ It is designed for database learners, analysts, and developers to practice datab
   SELECT queries: DISTINCT, LIMIT, WHERE, AND, OR, NOT, LIKE, BETWEEN, ORDER BY
   Aggregation queries: SUM, AVG, COUNT, MIN, MAX, GROUP BY, HAVING, SQL execution order
 - `sql/03_String Inbulit Operations.sql`
-  String manipulation functions: CONCAT, CONCAT_WS, LPAD, RPAD, LEFT, RIGHT, SUBSTRING, LENGTH, REPLACE, UPPER, LOWER, LCASE, TRIM, LTRIM, RTRIM
-  Pattern matching using REGEXP
-  Type conversion using CAST and CONVERT
-  Practical examples using actor, customer, and film tables
+    String manipulation functions: CONCAT, CONCAT_WS, LPAD, RPAD, LEFT, RIGHT, SUBSTRING, LENGTH, REPLACE, UPPER, LOWER, LCASE, TRIM, LTRIM, RTRIM
+    Pattern matching using REGEXP
+    Type conversion using CAST and CONVERT
+    Practical examples using actor, customer, and film tables
 - `sql/04_Numeric Inbuilt Operation.sql`
   Mathematical functions: POWER, MOD, RAND, CEIL, FLOOR, ROUND, TRUNCATE, SIGN, GREATEST, LEAST, ABS, SQRT
   Aggregate functions: SUM, AVG, MIN, MAX, COUNT
