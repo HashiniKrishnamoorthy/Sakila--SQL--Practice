@@ -22,5 +22,5 @@ It is designed for database learners, analysts, and developers to practice datab
 3. Execute scripts in order:
 
 ```sql
-`source sql/01_Introduction to SQL.sql;`
-`source sql/02_Introduction to Sql part2.sql;`
+-`source sql/01_Introduction to SQL.sql;`
+-`source sql/02_Introduction to Sql part2.sql;`
