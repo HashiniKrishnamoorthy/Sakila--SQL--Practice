@@ -14,13 +14,23 @@ It is designed for database learners, analysts, and developers to practice datab
 - `sql/02_Introduction to Sql part 2.sql`  
   SELECT queries: DISTINCT, LIMIT, WHERE, AND, OR, NOT, LIKE, BETWEEN, ORDER BY
   Aggregation queries: SUM, AVG, COUNT, MIN, MAX, GROUP BY, HAVING, SQL execution order
+- `sql/03_String Inbulit Operations.sql`
+  String manipulation functions: CONCAT, CONCAT_WS, LPAD, RPAD, LEFT, RIGHT, SUBSTRING, LENGTH, REPLACE, UPPER, LOWER, LCASE, TRIM, LTRIM, RTRIM
+  Pattern matching using REGEXP
+  Type conversion using CAST and CONVERT
+  Practical examples using actor, customer, and film tables
+- `sql/04_Numeric Inbuilt Operation.sql`
+  Mathematical functions: POWER, MOD, RAND, CEIL, FLOOR, ROUND, TRUNCATE, SIGN, GREATEST, LEAST, ABS, SQRT
+  Aggregate functions: SUM, AVG, MIN, MAX, COUNT
+  Use cases for analytics, reporting, and financial calculations
 
 ## How to Use
 
 1. Import the Sakila database: [Sakila Sample Database](https://dev.mysql.com/doc/sakila/en/)  
-2. Open MySQL Workbench or your SQL client  
-3. Execute scripts in order:
+2. Open MySQL Workbench or your SQL client
+3.  Execute scripts in order:
 
-```sql
-- `source sql/01_Introduction to SQL.sql;`
-- `source sql/02_Introduction to Sql part2.sql;`
+ - `source sql/01_Introduction to SQL.sql;`
+ - `source sql/02_Introduction to Sql part2.sql;`
+ - `sql/03_String Inbulit Operations.sql`
+ - `sql/04_Numeric Inbuilt Operation.sql`
