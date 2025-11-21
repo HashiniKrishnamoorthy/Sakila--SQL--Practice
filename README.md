@@ -23,6 +23,47 @@ It is designed for database learners, analysts, and developers to practice datab
   Mathematical functions: POWER, MOD, RAND, CEIL, FLOOR, ROUND, TRUNCATE, SIGN, GREATEST, LEAST, ABS, SQRT
   Aggregate functions: SUM, AVG, MIN, MAX, COUNT
   Use cases for analytics, reporting, and financial calculations
+- `sql/05_Subquery EXplanation.sql`
+  1. Subqueries in the WHERE Clause
+      Subqueries in the WHERE clause are used to filter rows based on results from another query.
+     Purpose:
+       Compare rows against aggregated values
+       Filter based on lists returned by another query
+       Check for existence or non-existence of related data
+  2. Subqueries in the SELECT Clause
+     A subquery in the SELECT clause returns a single value (scalar subquery) that appears as a column in the output.
+     Purpose:
+     Add computed values without performing joins
+     Display aggregated values for each row
+     Provide counts, sums, or averages alongside regular columns
+  3. Subqueries in the FROM Clause
+     Subqueries in the FROM clause act as a temporary table (also known as a derived table or inline view).
+- ` sql/06_Joins Explanation.sql`
+Topics Covered
+
+INNER JOIN
+Returns rows where matching values exist in both tables.
+Example: List all customers with their corresponding address details.
+
+LEFT JOIN (LEFT OUTER JOIN)
+Returns all rows from the left table and matched rows from the right.
+Example: List all films and the categories they belong to (including films without categories).
+
+RIGHT JOIN (RIGHT OUTER JOIN)
+Returns all rows from the right table and matched rows from the left.
+Example: List all categories with the films assigned to each.
+
+FULL OUTER JOIN (simulated using UNION)
+MySQL does not support FULL JOIN, but it can be simulated with UNION.
+Example: Retrieve all customers and all rental records, even if no match exists.
+
+CROSS JOIN
+Produces a Cartesian product of two tables.
+Example: Combine all store IDs with all staff IDs.
+
+SELF JOIN
+A table joined with itself.
+Example: Identify customers living in the same city.
 
 ## How to Use
 
@@ -34,3 +75,5 @@ It is designed for database learners, analysts, and developers to practice datab
  - `source sql/02_Introduction to Sql part2.sql;`
  - `sql/03_String Inbulit Operations.sql`
  - `sql/04_Numeric Inbuilt Operation.sql`
+ - `sql/05_Subquery Explanation.sql`
+ - `sql/07_Joins Explanation.sql`
