@@ -68,6 +68,41 @@ It is designed for database learners, analysts, and developers to practice datab
 
   This document provides a structured explanation of stored procedures used in MySQL, including input/output parameters, dynamic SQL, cursor-based procedures, and key         concepts such as natural vs. surrogate keys.
 
+  ## CTEs, Temporary Tables, and Views
+  ####  CTE (Common Table Expression)
+
+  A CTE is a temporary result set created inside a query using WITH.      
+  It helps make queries easier to read and avoids repeating subqueries.       
+  It exists only for that one query.             
+
+  Syntax:
+
+  - ` WITH cte_name AS (       
+      SELECT ...          
+    )         
+   SELECT * FROM cte_name; `
+
+  #### Temporary Tables
+
+    A temporary table is like a normal table but exists only for the current session.    
+   It is useful for storing intermediate results and using them multiple times.      
+
+    Syntax:
+
+   ` CREATE TEMPORARY TABLE temp_table AS                   
+     SELECT ...            `
+
+  #### Views
+
+    A View is a virtual table.     
+    It does not store data physically — it runs the query behind it every time you use it.     
+    Views help simplify complex queries.     
+
+    Syntax:
+
+     ` CREATE VIEW view_name AS
+       SELECT ... `
+
   ##  What Are Stored Procedures?
   - ` sql/Stored Procedures.sql`
   
@@ -162,5 +197,7 @@ It is designed for database learners, analysts, and developers to practice datab
  - `source sql/02_Introduction to Sql part2.sql;`
  - `sql/03_String Inbulit Operations.sql`
  - `sql/04_Numeric Inbuilt Operation.sql`
- - `sql/05_Subquery Explanation.sql`
- - `sql/07_Joins Explanation.sql`
+ - `sql/Subquery Explanation.sql`
+ - `sql/Joins Explanation.sql`
+ -  `sql/CTE,Temporary Tables,Views.sql`
+ -   `sql/Stored Procedures.sql`
