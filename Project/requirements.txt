@@ -1,0 +1,4 @@
+streamlitpip
+pandas
+secure-smtplib
+numpy
