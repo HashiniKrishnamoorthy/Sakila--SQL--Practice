@@ -1,0 +1,4 @@
+this is file operation.
+this include all operation.
+this operation adds the words.
+we can see the line are not overwritten.

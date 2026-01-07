@@ -1,0 +1,3 @@
+this is file operati this read and write overtieen .
+this operation adds the words.
+we can see the line are not overwritten.
